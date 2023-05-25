@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- attributes tags-->
+    <h1> Search Google</h1>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>search google</button>
+    </form>
+
+    <h2>More inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree" checked>
+        <label for="agree">i agree to terms of service</label>
+        <p>
+            <label for="xs">xs</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">s</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">m</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+        <p>
+            <label for="meal">Please select an entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">fish</option>
+                <option value="veg">veg</option>
+                <option value="steak">Steak</option>
+            </select>
+
+        </p>
+        <button>submit</button>
+
+        <p>
+            <label for="text_area">special request</label>
+            <textarea name="request" id="text_area" cols="30" rows="10"></textarea>
+
+        </p>
+
+
+    </form>
+
+
+    <h2>validation demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="first" id="first">
+    </form>
+
+
+
+
+
+</body>
+
+</html>
